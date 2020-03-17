@@ -4,8 +4,8 @@
   
   body {
     font-family: Arial;
-    padding: 10px;
-    background: #f1f1f1;
+    padding: 0px;
+    background: #f2f2f2; /* chanced from #f1f1f1 */
   }
   
   /* Header/Blog Title */
@@ -57,7 +57,7 @@
   .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: #f2f2f2;  
     padding-left: 20px;
   }
   
@@ -70,7 +70,7 @@
   
   /* Add a card effect for articles */
   .card {
-    background-color: rgb(209, 209, 209);
+    background-color: silver;
     padding: 20px;
     margin-top: 20px;
   }
@@ -129,16 +129,11 @@ section {
 
 }
 
-
-.home ul {
-    list-style-type: none;
-}
-
-.home li {
-    padding: 20px 0px 10px 20px;
-}
 /* FEATURES */
 
+.other  {
+    background: silver;
+}
 .other li {
     padding: 1px;
     display: row;
@@ -182,11 +177,13 @@ section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.lectures {
+    background: silver;
+}
 
 .home {
     height: 200px;
     color: black;
-    padding: 20px;
     flex-direction: row; /*thats default*/ 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -194,6 +191,7 @@ section {
 
 .quote li{
     padding:40px 40px 40px 5px;
+    background: silver;
 }
 
 

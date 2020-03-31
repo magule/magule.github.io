@@ -8,6 +8,12 @@
     background: #f2f2f2; /* chanced from #f1f1f1 */
   }
   
+  menu, ol, ul, li {
+    list-style: none;
+    padding: 0px;
+
+}
+
   /* Header/Blog Title */
   .header {
     padding: 30px;
@@ -51,6 +57,7 @@
   .leftcolumn {   
     float: left;
     width: 75%;
+    
   }
   
   /* Right column */
@@ -61,10 +68,15 @@
     padding-left: 20px;
   }
   
+  img {
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+
+
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
-    width: 100%;
     padding: 20px;
   }
   
@@ -156,6 +168,7 @@ section {
 }
 
 
+
 .books figure{
     width:600px;
     text-align:left;
@@ -189,6 +202,10 @@ section {
     background: silver;
 }
 
+
+.lectures li{
+  padding: 0px 0px 30px 0px;
+}
 .home {
     height: 200px;
     color: black;

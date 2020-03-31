@@ -1,4 +1,4 @@
 document.querySelector("button")
     .addEventListener("click", ()=> {
-        alert("wazzzzzab")
+        alert("what's up!")
     })
